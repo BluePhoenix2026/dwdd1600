@@ -1,0 +1,132 @@
+body {
+    font-family: "Tektur", sans-serif;
+    margin: 0;
+}
+
+/* Header Code Here */
+header {
+    background-color: #0F3777;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: aliceblue;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+/* Nav Code Here */
+nav {
+    background-color: #1E6BE5;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #0F3777;
+    font-weight: 700;
+}
+
+nav li.Current a {
+    background-color: #0F3777;
+    color: aliceblue;
+}
+
+nav li a:hover {
+    color: aliceblue;
+}
+
+/* Main Code Here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #0F3777
+}
+
+main h2 {
+    color: #376abb;
+    margin-bottom: 0.2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: 0.5rem 30px;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #0F3777;
+    font-weight: 700;
+    padding-top: 1rem;
+}
+
+main dl dd {
+    color: #376abb;
+    font-family: 0.9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: 0.9rem;
+    font-size: 0.9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #efefef;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: 2px solid #1E6BE5;
+    width: 200px;
+}
+
+main a {
+    color: #0F3777;
+}
+
+main a:hover {
+    color: #1E6BE5;
+}
+
+/* Footer Code Here */
+footer {
+    background-color: #efefef;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
