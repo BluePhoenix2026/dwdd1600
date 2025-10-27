@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Sean Bingham">
+    <meta name="Description" content="Learn About The Ancient Roman Empire">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="traveler.css">
+    <title>Roman Empire: Plan Visit</title>
+</head>
+
+<body>
+    <!-- Start The Page Head -->
+    <header>
+        <span>Ancient Roman Empire</span>
+    </header>
+
+    <!-- Start The Page Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Roman Empire</a></li>
+            <li><a href="roman inventions.html">Inventions</a></li>
+            <li><a href="photo gallery.html">Photo Gallery</a></li>
+            <li class="Current"><a href="vacation.html">Plan Your Vacation</a></li>
+        </ul>
+
+    </nav>
+    <!-- Start The Main Content -->
+    <Main>
+        <h1>Plan Your Visit</h1>
+
+        <form method="get" class="myform" action="submit.html">
+
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Phone Number*<input type="tel" name="phone" required></label>
+                <label>Email*<input type="tel" name="email" required></label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Family Information</legend>
+                <label>Family Size
+                    <select name="family">
+                        <option value="none">Please Select</option>
+
+                        <option value="1">1</option>
+
+                        <option value="2">2</option>
+
+                        <option value="3">3</option>
+
+                        <option value="4">4</option>
+
+                        <option value="5">5</option>
+
+                        <option value="6">6</option>
+
+                        <option value="7">7</option>
+
+                        <option value="8">8</option>
+
+                        <option value="9">9</option>
+
+                        <option value="10">10</option>
+
+                        <option value="11">11</option>
+
+                        <option value="12">12</option>
+
+
+                    </select>
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Hotel Information</legend>
+                <Label><input type="checkbox" name="handicap" value="chosen"> Wheel Chair Friendly </Label>
+
+
+
+
+                <Label><input type="checkbox" name="larger" value="chosen"> Larger Room</Label>
+
+
+
+
+                <Label><input type="checkbox" name="buffet" value="chosen"> Buffet </Label>
+
+
+
+
+
+                <Label><input type="checkbox" name="tours" value="chosen"> Included Tours </Label>
+
+
+
+
+
+                <Label><input type="checkbox" name="all" value="chosen"> All Inclusive </Label>
+
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Preferred Area</legend>
+                <label><input type="radio" name="method" value="celio">Celio District</label>
+                <label><input type="radio" name="method" value="vatican">Vatican City</label>
+                <label><input type="radio" name="method" value="monti">Monti</label>
+            </fieldset>
+
+
+
+
+
+            <label>Additional Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+
+
+            <input type="submit" value="Submit Form">
+
+        </form>
+
+    </Main>
+
+    <!-- Start The Page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Sean Bingham &bull; Web Development</p>
+    </footer>
+
+</body>
+
+</html>
